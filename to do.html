@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<title>Список дел</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=MonteCarlo&
+	display=swap" rel="stylesheet">
+	<link rel="shortcut icon" type="image/png" href="img/Checklist-icon.png"/>
+	<link rel="stylesheet" type="text/css" href="css/todo.css">
+</head>
+<body>
+
+	<h1>Список дел</h1>
+	<div class="all">
+		<div class="app" id="app" onclick="change(event)">
+			<input type="" name="" id="list" onkeypress="enter(event)" class="input" onfocus="rotate()" onfocusout='backRotate()'>
+			<div id="text">
+				
+			</div>
+		</div>
+		<div class="fun">
+			<img src="img/erase.png" class="erase" onclick="deleteAll()">
+			<img src="img/pen.png" id="pen" class="pen">
+		</div>
+	</div>
+
+	<script src="js/todo.js"></script>
+</body>
+</html>
